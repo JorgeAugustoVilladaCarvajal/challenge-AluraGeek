@@ -1,0 +1,148 @@
+header{
+    background-color: #5D04D9;
+    height: 50px;
+    text-align: center; 
+}
+
+.titulopadre{
+    padding-top: 0.9%; 
+    color: azure;
+}
+
+div{
+    display: flex;
+}
+
+section{
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+    padding-bottom: 60px;
+    box-shadow: -10px 10px 10px #000;;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.misproductos{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.productos{
+    width: 940px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+img{
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 130px;
+}
+
+
+.productos li:hover{
+    border-color: beige;
+
+}
+
+.productos li{
+    display: inline-block;
+    width: 16%;
+    height: 205px;
+    vertical-align: top;
+    background-color: #5D04D9;
+    padding: 5px 6px;
+    margin: 0 0.2%;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: azure;
+
+}
+
+.productos p{
+    font-size: 10px;
+}
+
+.productoprecio{
+    margin-top: 0px;
+}
+
+.agregarproducto{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.input{
+display: block;
+margin: 28px 0px;
+padding: 10px 70px;
+border-radius: 30px;
+border-color: #03318c;
+}
+
+::placeholder{
+color: #03318c;
+font-weight: bold;
+}
+
+.boton1{
+    padding: 10px 52px;
+    border-radius: 10px;
+    background-color: #03318c;
+    border-color: #03318c ;
+    color: aliceblue;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background-color: azure;
+    color: #03318c;
+    transform: scale(1.1);
+}
+
+.boton2{
+    padding: 10px 52px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border-color: #03318c ;
+    color: #03318c ;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton2:hover{
+    background-color: #03318c;
+    color: azure;
+    transform: scale(1.1);
+    border-color: azure;
+}
+
+footer{
+    background-color: #5D04D9;
+    height: 130px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+.logo{
+    border-color: #5D04D9;
+}
+
+.copyright{
+    font-size: 10.3px;
+}
+
+@media screen and(max-width:480px){
+     
+}

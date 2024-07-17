@@ -6,7 +6,7 @@ header{
 
 .titulopadre{
     padding-top: 0.9%; 
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 
 div{
@@ -14,11 +14,11 @@ div{
 }
 
 section{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     height: 50%;
     width: 50%;
     padding-bottom: 60px;
-    box-shadow: -10px 10px 10px #000;;
+    
 
     
 
@@ -28,16 +28,22 @@ section{
     align-items: center;
 }
 
+.section{
+    box-shadow: -10px 10px 10px #0000007f;
+}
+
 .misproductos{
     text-align: center;
-    margin: 0 auto;
+    margin-right: 10%;
     padding-top: 100px;
+    
 }
 
 .productos{
     width: 940px;
     margin-left: 400px;
     padding: 10px;
+    
 }
 
 img{
